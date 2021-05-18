@@ -1,0 +1,20 @@
+.top-players-table {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-players-table thead th {
+  text-align: left;
+}
+
+.top-players-table tbody tr td:first-child,
+.top-players-table tbody tr td:nth-child(2) {
+  width: 10%;
+}
+
+.no-data-available-row {
+  text-align: center;
+  height: 200px;
+}
